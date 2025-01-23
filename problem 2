@@ -1,0 +1,10 @@
+#1/23 Daily Code: More Function Reviews Jeremy problem 2
+def ChangeChecker(number):
+    
+    if number%5==0:
+        print("no pennies needed")
+    elif number>=17:
+        print("You will need pennies for this!")
+
+
+ChangeChecker(10)
