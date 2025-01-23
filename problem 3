@@ -1,0 +1,10 @@
+#1/23 Daily Code: More Function Reviews Jeremy, problem 3
+def CheckPrime(num):
+    prime = True
+    for i in range(2,num):
+    if num %i == 0:
+       prime = False
+    return prime
+    
+result = CheckPrime(7)
+print("is the number prime?", result)
