@@ -1,0 +1,13 @@
+#1/23 Daily Code: More Function Reviews, Jeremy
+
+def SphereArea(r):
+    return 4*3.14* r * r
+
+result = SphereArea(10) #function call
+print("The area of the sphere is:", result)
+
+
+
+#1)look up and write out formula 
+#2) type "def" then name, then the parameters
+#3) type the forumla after return state
